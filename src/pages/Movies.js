@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { Route, Switch } from "react-router-dom";
 import { useHistory } from "react-router";
-import { useDispatch, useSelector } from 'react-redux'; 
+import { useSelector } from 'react-redux'; 
 import utils from '../utils/appUtils';
 //Components
 import AllMoviesComp from "./AllMovies";
