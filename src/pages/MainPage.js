@@ -18,7 +18,7 @@ function MainPageComp() {
 
 
   return (
-    <div className="App">
+    <div className="App" style={{width: '800px', margin: '0 auto'}}>
       <h1>Welcome To Adam's Movies-Subscriptions Website</h1>
 
       <Switch>
