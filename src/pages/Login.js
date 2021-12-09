@@ -27,7 +27,7 @@ function LoginComp() {
   useEffect( () => {
     async function fetchData ()
     {
-      let users = await axios.get("http://localhost:8000/api/users")
+      let users = await axios.get("https://mern-final-movie-sub-app.herokuapp.com/api/users");
       setUsersDB(users.data);
     }
      fetchData();
