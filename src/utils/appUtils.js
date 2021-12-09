@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = "https://mern-final-movie-sub-app.herokuapp.com/api/"
+const url = "https://mern-final-movie-sub-app.herokuapp.com/api/";
 
 const  getSubs = () => 
 {
